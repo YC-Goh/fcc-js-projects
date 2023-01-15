@@ -1,4 +1,28 @@
 
+import React from 'react';
+import MdTextArea from './components/mdTextArea/mdTextArea';
+import MdTranslatedArea from './components/mdTranslatedArea/mdTranslatedArea';
+
+const styleAppArea = {display: 'flex', justifyContent: 'center'};
+const styleTextAreaWrapper = {width: '35vw', height: '80vh', margin: '0', padding: '0'};
+
+function App() {
+  return (
+    <div className="App" style={styleAppArea}>
+      <div style={styleTextAreaWrapper}>
+        <h2>Write Markdown</h2>
+        <MdTextArea />
+      </div>
+      <div style={styleTextAreaWrapper}>
+        <h2>Translated Markdown</h2>
+        <MdTranslatedArea />
+      </div>
+    </div>
+  );
+};
+
+export default App;
+
 /*
 
 import React from 'react';
