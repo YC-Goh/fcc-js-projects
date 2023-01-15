@@ -1,0 +1,19 @@
+
+.quoteBox {
+    margin: 20vh auto;
+    padding: 0;
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+.shareButton {
+    font-size: 24px;
+    color: black;
+}
+
+.newQuoteButton {
+    border-radius: 0;
+    color: black;
+    background-color: white;
+}
