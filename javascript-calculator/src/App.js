@@ -1,4 +1,38 @@
 
+import React from 'react';
+import Display from './components/display/Display';
+import { ButtonZero, ButtonOne, ButtonTwo, ButtonThree, ButtonFour, ButtonFive, ButtonSix, ButtonSeven, ButtonEight, ButtonNine } from './components/buttons/buttons';
+import { AddButton, SubtractButton, MultiplyButton, DivideButton, DecimalButton, LeftParenthesisButton, RightParenthesisButton, EqualsButton, BackspaceButton, ClearButton } from './components/buttons/buttons';
+import { styleApp } from './styles/styles';
+
+const App = () => (
+  <div className="App" style={styleApp}>
+    <Display />
+    <ClearButton />
+    <LeftParenthesisButton />
+    <RightParenthesisButton />
+    <BackspaceButton />
+    <ButtonSeven />
+    <ButtonEight />
+    <ButtonNine />
+    <DivideButton />
+    <ButtonFour />
+    <ButtonFive />
+    <ButtonSix />
+    <MultiplyButton />
+    <ButtonOne />
+    <ButtonTwo />
+    <ButtonThree />
+    <SubtractButton />
+    <ButtonZero />
+    <DecimalButton />
+    <EqualsButton />
+    <AddButton />
+  </div>
+);
+
+export default App;
+
 /*
 
 import React from 'react';
