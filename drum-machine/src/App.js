@@ -1,4 +1,20 @@
 
+import React from 'react';
+import Display from './components/Display';
+import DrumPadBox from './components/DrumPads';
+import './styles/styles.css';
+
+const App = () => {
+  return (
+    <div id='drum-machine'>
+      <DrumPadBox />
+      <Display />
+    </div>
+  );
+};
+
+export default App;
+
 /*
 
 import React from 'react';

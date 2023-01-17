@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#drum-machine {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    border: 3px solid brown;
+    background-color: wheat;
+}
+
+#drum-pad-box {
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.drum-pad {
+    border: 2px solid navy;
+    border-radius: 50%;
+    background-color: skyblue;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#display {
+    margin: auto 0;
+    height: 48px;
+    width: 10vw;
+    min-width: 240px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid darkgreen;
+    background-color: aquamarine;
+}
+
+#display-text {
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.drum-pad {
+    width: 48px;
+    height: 48px;
+}
