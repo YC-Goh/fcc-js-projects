@@ -10,4 +10,5 @@ However, the projects are not to be completed and stored on FCC servers and are 
 Completed projects are then to be uploaded to some public repository and the link submitted to FCC.
 This serves as that repository for my five projects for the FCC Front-End Development Libraries certification.
 
-
+Most things are not pretty at all.
+My intention is to come back and beautify things using Bootstrap.js and/or SCSS later.
