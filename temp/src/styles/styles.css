@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.App {
+    width: fit-content;
+    max-width: 720px;
+    height: fit-content;
+    padding: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-75%);
+    background-color: chocolate;
+    border: 2px solid brown;
+}
+
+#time-left-display {
+    width: 334px;
+    padding: 6px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: 1px solid navy;
+    background-color: skyblue;
+}
+
+#time-setters, #session-length-setter, #break-length-setter {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#session-length-setter, #break-length-setter {
+    width: 160px;
+    padding: 6px;
+}
+
+#session-length-setter, #break-length-setter {
+    border: 1px solid darkred;
+    background-color: lightcoral;
+}
+
+#timer-label, #time-left-number, #session-label,  #session-length-number, #break-label, #break-length-number {
+    text-align: center;
+}
+
+#time-left-number, #session-length-number, #break-length-number {
+    text-align: center;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#timer-label, #session-label, #break-label {
+    width: 100%;
+}
+
+#session-increment, #session-decrement, #break-increment, #break-decrement, #start_stop, #reset {
+    text-align: center;
+    font-family: monospace;
+    font-size: 24px;
+    width: 48px;
+    border: 1px solid navy;
+    background-color: skyblue;
+    border-radius: 20%;
+}
+
+#start_stop, #reset {
+    width: 96px;
+    border: 1px solid darkred;
+    background-color: lightcoral;
+}
